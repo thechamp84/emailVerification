@@ -26,7 +26,7 @@ app.get('/send',function(req,res){
 		service: 'gmail',
 		auth: {
 		  user: 'himanshusonkar84@gmail.com',
-		  pass: 'your-password-here'
+		  pass: 'Enter-your-password-here'
 		}
 	  });
 	rand=Math.floor((Math.random() * 100) + 54);
